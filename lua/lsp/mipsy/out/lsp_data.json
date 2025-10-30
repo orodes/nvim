@@ -1,0 +1,1455 @@
+{
+    "suggestions": [
+        {
+            "label": ".text",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".data",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".ktext",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".kdata",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".ascii",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".asciiz",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".byte",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".half",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".word",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".float",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".double",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".space",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".align",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": ".globl",
+            "type": "directive",
+            "docs": ""
+        },
+        {
+            "label": "$zero",
+            "type": "register",
+            "sort_data": "00",
+            "docs": ""
+        },
+        {
+            "label": "$at",
+            "type": "register",
+            "sort_data": "01",
+            "docs": ""
+        },
+        {
+            "label": "$v0",
+            "type": "register",
+            "sort_data": "02",
+            "docs": ""
+        },
+        {
+            "label": "$v1",
+            "type": "register",
+            "sort_data": "03",
+            "docs": ""
+        },
+        {
+            "label": "$a0",
+            "type": "register",
+            "sort_data": "04",
+            "docs": ""
+        },
+        {
+            "label": "$a1",
+            "type": "register",
+            "sort_data": "05",
+            "docs": ""
+        },
+        {
+            "label": "$a2",
+            "type": "register",
+            "sort_data": "06",
+            "docs": ""
+        },
+        {
+            "label": "$a3",
+            "type": "register",
+            "sort_data": "07",
+            "docs": ""
+        },
+        {
+            "label": "$t0",
+            "type": "register",
+            "sort_data": "08",
+            "docs": ""
+        },
+        {
+            "label": "$t1",
+            "type": "register",
+            "sort_data": "09",
+            "docs": ""
+        },
+        {
+            "label": "$t2",
+            "type": "register",
+            "sort_data": "10",
+            "docs": ""
+        },
+        {
+            "label": "$t3",
+            "type": "register",
+            "sort_data": "11",
+            "docs": ""
+        },
+        {
+            "label": "$t4",
+            "type": "register",
+            "sort_data": "12",
+            "docs": ""
+        },
+        {
+            "label": "$t5",
+            "type": "register",
+            "sort_data": "13",
+            "docs": ""
+        },
+        {
+            "label": "$t6",
+            "type": "register",
+            "sort_data": "14",
+            "docs": ""
+        },
+        {
+            "label": "$t7",
+            "type": "register",
+            "sort_data": "15",
+            "docs": ""
+        },
+        {
+            "label": "$s0",
+            "type": "register",
+            "sort_data": "16",
+            "docs": ""
+        },
+        {
+            "label": "$s1",
+            "type": "register",
+            "sort_data": "17",
+            "docs": ""
+        },
+        {
+            "label": "$s2",
+            "type": "register",
+            "sort_data": "18",
+            "docs": ""
+        },
+        {
+            "label": "$s3",
+            "type": "register",
+            "sort_data": "19",
+            "docs": ""
+        },
+        {
+            "label": "$s4",
+            "type": "register",
+            "sort_data": "20",
+            "docs": ""
+        },
+        {
+            "label": "$s5",
+            "type": "register",
+            "sort_data": "21",
+            "docs": ""
+        },
+        {
+            "label": "$s6",
+            "type": "register",
+            "sort_data": "22",
+            "docs": ""
+        },
+        {
+            "label": "$s7",
+            "type": "register",
+            "sort_data": "23",
+            "docs": ""
+        },
+        {
+            "label": "$t8",
+            "type": "register",
+            "sort_data": "24",
+            "docs": ""
+        },
+        {
+            "label": "$t9",
+            "type": "register",
+            "sort_data": "25",
+            "docs": ""
+        },
+        {
+            "label": "$k0",
+            "type": "register",
+            "sort_data": "26",
+            "docs": ""
+        },
+        {
+            "label": "$k1",
+            "type": "register",
+            "sort_data": "27",
+            "docs": ""
+        },
+        {
+            "label": "$gp",
+            "type": "register",
+            "sort_data": "28",
+            "docs": ""
+        },
+        {
+            "label": "$sp",
+            "type": "register",
+            "sort_data": "29",
+            "docs": ""
+        },
+        {
+            "label": "$fp",
+            "type": "register",
+            "sort_data": "30",
+            "docs": ""
+        },
+        {
+            "label": "$ra",
+            "type": "register",
+            "sort_data": "31",
+            "docs": ""
+        },
+        {
+            "label": "sll",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt left by Sa logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "srl",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt right by Sa logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "rotr",
+            "type": "instruction",
+            "docs": "Rotates the value in $Rt right by Sa logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "sra",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt right by Sa arithmetically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "sllv",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt left by the value in $Rs logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "srlv",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt right by the value in $Rs logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "rotrv",
+            "type": "instruction",
+            "docs": "Rotates the value in $Rt right by the value in $Rs logically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "srav",
+            "type": "instruction",
+            "docs": "Shifts the value in $Rt right by the value in $Rs arithmetically, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "jr",
+            "type": "instruction",
+            "docs": "Jumps to the address stored in the register $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "jalr",
+            "type": "instruction",
+            "docs": "Jump-and-links to the address stored in the register $Rs, storing the return address in $Rd ($31 if not specified)",
+            "autoIndent": true
+        },
+        {
+            "label": "movz",
+            "type": "instruction",
+            "docs": "Move Conditional on Zero",
+            "autoIndent": true
+        },
+        {
+            "label": "movn",
+            "type": "instruction",
+            "docs": "Move Conditional on Not Zero",
+            "autoIndent": true
+        },
+        {
+            "label": "syscall",
+            "type": "instruction",
+            "docs": "Causes a system-call interrupt",
+            "autoIndent": false
+        },
+        {
+            "label": "break",
+            "type": "instruction",
+            "docs": "Causes a break interrupt",
+            "autoIndent": false
+        },
+        {
+            "label": "mfhi",
+            "type": "instruction",
+            "docs": "Copies the value from the HI register to $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "clz",
+            "type": "instruction",
+            "docs": "Count leading zeroes of $Rs, store in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "mthi",
+            "type": "instruction",
+            "docs": "Copies the value from $Rs to the HI register",
+            "autoIndent": true
+        },
+        {
+            "label": "clo",
+            "type": "instruction",
+            "docs": "Count leading ones of $Rs, store in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "mflo",
+            "type": "instruction",
+            "docs": "Copies the value from the LO register to $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "mtlo",
+            "type": "instruction",
+            "docs": "Copies the value from $Rs to the LO register",
+            "autoIndent": true
+        },
+        {
+            "label": "mult",
+            "type": "instruction",
+            "docs": "Multiplies the values in $Rs and $Rt, storing the result in the HI and LO registers",
+            "autoIndent": true
+        },
+        {
+            "label": "multu",
+            "type": "instruction",
+            "docs": "Multiplies the values in $Rs and $Rt, storing the result in the HI and LO registers, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "div",
+            "type": "instruction",
+            "docs": "Divides the values in $Rs and $Rt, storing the $Rs / $Rt in LO, and $Rs % $Rt in HI",
+            "autoIndent": true
+        },
+        {
+            "label": "divu",
+            "type": "instruction",
+            "docs": "Divides the values in $Rs and $Rt, storing the $Rs / $Rt in LO, and $Rs % $Rt in HI, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "tge",
+            "type": "instruction",
+            "docs": "Trap if Greater or Equal",
+            "autoIndent": true
+        },
+        {
+            "label": "tgeu",
+            "type": "instruction",
+            "docs": "Trap if Greater or Equal Unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "tlt",
+            "type": "instruction",
+            "docs": "Trap if Less Than",
+            "autoIndent": true
+        },
+        {
+            "label": "tltu",
+            "type": "instruction",
+            "docs": "Trap if Less Than Unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "teq",
+            "type": "instruction",
+            "docs": "Trap if Equal",
+            "autoIndent": true
+        },
+        {
+            "label": "tne",
+            "type": "instruction",
+            "docs": "Trap if Not Equal",
+            "autoIndent": true
+        },
+        {
+            "label": "madd",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "maddu",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "mul",
+            "type": "instruction",
+            "docs": "Multiplies the values in $Rs and $Rt, storing the result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "msub",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "msubu",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "wsbh",
+            "type": "instruction",
+            "docs": "Word Swap Bytes Within Halfwords",
+            "autoIndent": true
+        },
+        {
+            "label": "seb",
+            "type": "instruction",
+            "docs": "Sign-Extend Byte",
+            "autoIndent": true
+        },
+        {
+            "label": "seh",
+            "type": "instruction",
+            "docs": "Sign-Extend Halfword",
+            "autoIndent": true
+        },
+        {
+            "label": "add",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "addu",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "sub",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "subu",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "and",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "or",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "xor",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "nor",
+            "type": "instruction",
+            "docs": "todo",
+            "autoIndent": true
+        },
+        {
+            "label": "slt",
+            "type": "instruction",
+            "docs": "Set $Rd to 1 if $Rs < $Rt, otherwise set $Rd to 0, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "sltu",
+            "type": "instruction",
+            "docs": "Set $Rd to 1 if $Rs < $Rt, otherwise set $Rd to 0, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "bltz",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the value in $Rs < 0",
+            "autoIndent": true
+        },
+        {
+            "label": "bgez",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the value in $Rs >= 0",
+            "autoIndent": true
+        },
+        {
+            "label": "tgei",
+            "type": "instruction",
+            "docs": "Trap if Greater or Equal Immediate",
+            "autoIndent": true
+        },
+        {
+            "label": "tgeiu",
+            "type": "instruction",
+            "docs": "Trap if Greater or Equal Immediate Unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "tlti",
+            "type": "instruction",
+            "docs": "Trap if Less Than Immediate",
+            "autoIndent": true
+        },
+        {
+            "label": "tltiu",
+            "type": "instruction",
+            "docs": "Trap if Less Than Immediate Unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "teqi",
+            "type": "instruction",
+            "docs": "Trap if Equal Immediate",
+            "autoIndent": true
+        },
+        {
+            "label": "tnei",
+            "type": "instruction",
+            "docs": "Trap if Not Equal Immediate",
+            "autoIndent": true
+        },
+        {
+            "label": "bltzal",
+            "type": "instruction",
+            "docs": "Branch-and-link to the immediate address if the value in $Rs < 0",
+            "autoIndent": true
+        },
+        {
+            "label": "bgezal",
+            "type": "instruction",
+            "docs": "Branch-and-link to the immediate address if the value in $Rs >= 0",
+            "autoIndent": true
+        },
+        {
+            "label": "beq",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the values in $Rs == $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bne",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the values in $Rs != $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "blez",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the value in $Rs <= 0",
+            "autoIndent": true
+        },
+        {
+            "label": "bgtz",
+            "type": "instruction",
+            "docs": "Branch to the immediate address if the value in $Rs > 0",
+            "autoIndent": true
+        },
+        {
+            "label": "addi",
+            "type": "instruction",
+            "docs": "Adds an immediate value to the value in $Rs, stores result in $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "addiu",
+            "type": "instruction",
+            "docs": "Adds an immediate value to the value in $Rs, stores result in $Rt, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "slti",
+            "type": "instruction",
+            "docs": "Sets $Rt to 1 if the value in $Rs is less than the immediate value, otherwise sets $Rt to 0",
+            "autoIndent": true
+        },
+        {
+            "label": "sltiu",
+            "type": "instruction",
+            "docs": "Sets $Rt to 1 if the value in $Rs is less than the immediate value, otherwise sets $Rt to 0, unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "andi",
+            "type": "instruction",
+            "docs": "Bitwise and of the value in $Rs and the immediate value, stores the result in $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "ori",
+            "type": "instruction",
+            "docs": "Bitwise or of the value in $Rs and the immediate value, stores the result in $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "xori",
+            "type": "instruction",
+            "docs": "Bitwise xor of the value in $Rs and the immediate value, stores the result in $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "lui",
+            "type": "instruction",
+            "docs": "Load the immediate value into the upper 16 bits of $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "lb",
+            "type": "instruction",
+            "docs": "Load one byte at the immediate address + $Rs into $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "lh",
+            "type": "instruction",
+            "docs": "Load two bytes at the immediate address + $Rs into $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "lwl",
+            "type": "instruction",
+            "docs": "Load Word Left",
+            "autoIndent": true
+        },
+        {
+            "label": "lw",
+            "type": "instruction",
+            "docs": "Load four bytes at the immediate address + $Rs into $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "lbu",
+            "type": "instruction",
+            "docs": "Load one byte at the immediate address + $Rs into $Rt, don't sign extend",
+            "autoIndent": true
+        },
+        {
+            "label": "lhu",
+            "type": "instruction",
+            "docs": "Load two bytes at the immediate address + $Rs into $Rt, don't sign extend",
+            "autoIndent": true
+        },
+        {
+            "label": "lwr",
+            "type": "instruction",
+            "docs": "Load Word Right",
+            "autoIndent": true
+        },
+        {
+            "label": "sb",
+            "type": "instruction",
+            "docs": "Store one byte from $Rt into the immediate address + $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "sh",
+            "type": "instruction",
+            "docs": "Store two bytes from $Rt into the immediate address + $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "sw",
+            "type": "instruction",
+            "docs": "Store four bytes from $Rt into the immediate address + $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "j",
+            "type": "instruction",
+            "docs": "Jump to the immediate address",
+            "autoIndent": true
+        },
+        {
+            "label": "jal",
+            "type": "instruction",
+            "docs": "Jump-and-link to the immediate address",
+            "autoIndent": true
+        },
+        {
+            "label": "incr",
+            "type": "instruction",
+            "docs": "Increment the value of $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "decr",
+            "type": "instruction",
+            "docs": "Decrement the value of $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "sle",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sleu",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sgt",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sgtu",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sge",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sgeu",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "seq",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "sne",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "lwc1",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "swc1",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "li",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "la",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "nop",
+            "type": "instruction",
+            "docs": "No-Operation - doesn't do anything",
+            "autoIndent": false
+        },
+        {
+            "label": "move",
+            "type": "instruction",
+            "docs": "Copy the value from $Rs into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "copy",
+            "type": "instruction",
+            "docs": "Copy the value from $Rs into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "neg",
+            "type": "instruction",
+            "docs": "Flip all the bits in $Rs, store result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "negu",
+            "type": "instruction",
+            "docs": "Flip all the bits in $Rs, store result in $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "not",
+            "type": "instruction",
+            "docs": "$Rd = ! $Rs",
+            "autoIndent": true
+        },
+        {
+            "label": "rem",
+            "type": "instruction",
+            "docs": "Store the remainder of $Rs / $Rt into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "remu",
+            "type": "instruction",
+            "docs": "Store the remainder of $Rs / $Rt (unsigned) into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "mod",
+            "type": "instruction",
+            "docs": "Store the remainder of $Rs / $Rt into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "modu",
+            "type": "instruction",
+            "docs": "Store the remainder of $Rs / $Rt (unsigned) into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "abs",
+            "type": "instruction",
+            "docs": "$Rs = |$Rt|",
+            "autoIndent": true
+        },
+        {
+            "label": "push",
+            "type": "instruction",
+            "docs": "Push $Rs to the top of the stack",
+            "autoIndent": true
+        },
+        {
+            "label": "pop",
+            "type": "instruction",
+            "docs": "Pop the top of the stack into $Rd",
+            "autoIndent": true
+        },
+        {
+            "label": "begin",
+            "type": "instruction",
+            "docs": "Begin a new stack frame",
+            "autoIndent": false
+        },
+        {
+            "label": "end",
+            "type": "instruction",
+            "docs": "End the current stack frame",
+            "autoIndent": false
+        },
+        {
+            "label": "rol",
+            "type": "instruction",
+            "docs": "Rotate Left",
+            "autoIndent": true
+        },
+        {
+            "label": "ror",
+            "type": "instruction",
+            "docs": "Rotate Right",
+            "autoIndent": true
+        },
+        {
+            "label": "zeb",
+            "type": "instruction",
+            "docs": "Zero-Extend Byte",
+            "autoIndent": true
+        },
+        {
+            "label": "zeh",
+            "type": "instruction",
+            "docs": "Zero-Extend Half",
+            "autoIndent": true
+        },
+        {
+            "label": "b",
+            "type": "instruction",
+            "docs": "Branch unconditionally",
+            "autoIndent": true
+        },
+        {
+            "label": "bal",
+            "type": "instruction",
+            "docs": "",
+            "autoIndent": true
+        },
+        {
+            "label": "beqz",
+            "type": "instruction",
+            "docs": "Branch if $Rs == 0",
+            "autoIndent": true
+        },
+        {
+            "label": "bnez",
+            "type": "instruction",
+            "docs": "Branch if $Rs != 0",
+            "autoIndent": true
+        },
+        {
+            "label": "bge",
+            "type": "instruction",
+            "docs": "Branch if $Rs >= $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bgeu",
+            "type": "instruction",
+            "docs": "Branch if $Rs >= $Rt unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "blt",
+            "type": "instruction",
+            "docs": "Branch if $Rs < $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bltu",
+            "type": "instruction",
+            "docs": "Branch if $Rs < $Rt unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "ble",
+            "type": "instruction",
+            "docs": "Branch if $Rs <= $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bleu",
+            "type": "instruction",
+            "docs": "Branch if $Rs <= $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bgt",
+            "type": "instruction",
+            "docs": "Branch if $Rs > $Rt",
+            "autoIndent": true
+        },
+        {
+            "label": "bgtu",
+            "type": "instruction",
+            "docs": "Branch if $Rs > $Rt unsigned",
+            "autoIndent": true
+        },
+        {
+            "label": "1",
+            "type": "syscall_num",
+            "docs": "print int",
+            "syscall_common": true,
+            "sort_data": "01"
+        },
+        {
+            "label": "2",
+            "type": "syscall_num",
+            "docs": "print float",
+            "syscall_common": false,
+            "sort_data": "02"
+        },
+        {
+            "label": "3",
+            "type": "syscall_num",
+            "docs": "print double",
+            "syscall_common": false,
+            "sort_data": "03"
+        },
+        {
+            "label": "4",
+            "type": "syscall_num",
+            "docs": "print string",
+            "syscall_common": true,
+            "sort_data": "04"
+        },
+        {
+            "label": "5",
+            "type": "syscall_num",
+            "docs": "read int",
+            "syscall_common": true,
+            "sort_data": "05"
+        },
+        {
+            "label": "6",
+            "type": "syscall_num",
+            "docs": "read float",
+            "syscall_common": false,
+            "sort_data": "06"
+        },
+        {
+            "label": "7",
+            "type": "syscall_num",
+            "docs": "read double",
+            "syscall_common": false,
+            "sort_data": "07"
+        },
+        {
+            "label": "8",
+            "type": "syscall_num",
+            "docs": "read string",
+            "syscall_common": false,
+            "sort_data": "08"
+        },
+        {
+            "label": "9",
+            "type": "syscall_num",
+            "docs": "sbrk",
+            "syscall_common": false,
+            "sort_data": "09"
+        },
+        {
+            "label": "10",
+            "type": "syscall_num",
+            "docs": "exit",
+            "syscall_common": false,
+            "sort_data": "10"
+        },
+        {
+            "label": "11",
+            "type": "syscall_num",
+            "docs": "print character",
+            "syscall_common": true,
+            "sort_data": "11"
+        },
+        {
+            "label": "12",
+            "type": "syscall_num",
+            "docs": "read character",
+            "syscall_common": true,
+            "sort_data": "12"
+        },
+        {
+            "label": "13",
+            "type": "syscall_num",
+            "docs": "open file",
+            "syscall_common": false,
+            "sort_data": "13"
+        },
+        {
+            "label": "14",
+            "type": "syscall_num",
+            "docs": "read file",
+            "syscall_common": false,
+            "sort_data": "14"
+        },
+        {
+            "label": "15",
+            "type": "syscall_num",
+            "docs": "write file",
+            "syscall_common": false,
+            "sort_data": "15"
+        },
+        {
+            "label": "16",
+            "type": "syscall_num",
+            "docs": "close file",
+            "syscall_common": false,
+            "sort_data": "16"
+        },
+        {
+            "label": "17",
+            "type": "syscall_num",
+            "docs": "exit2",
+            "syscall_common": false,
+            "sort_data": "17"
+        }
+    ],
+    "hover_docs": {
+        "sll": {
+            "docs": "sll: Shifts the value in $Rt left by Sa logically, storing the result in $Rd"
+        },
+        "srl": {
+            "docs": "srl: Shifts the value in $Rt right by Sa logically, storing the result in $Rd"
+        },
+        "rotr": {
+            "docs": "rotr: Rotates the value in $Rt right by Sa logically, storing the result in $Rd"
+        },
+        "sra": {
+            "docs": "sra: Shifts the value in $Rt right by Sa arithmetically, storing the result in $Rd"
+        },
+        "sllv": {
+            "docs": "sllv: Shifts the value in $Rt left by the value in $Rs logically, storing the result in $Rd"
+        },
+        "srlv": {
+            "docs": "srlv: Shifts the value in $Rt right by the value in $Rs logically, storing the result in $Rd"
+        },
+        "rotrv": {
+            "docs": "rotrv: Rotates the value in $Rt right by the value in $Rs logically, storing the result in $Rd"
+        },
+        "srav": {
+            "docs": "srav: Shifts the value in $Rt right by the value in $Rs arithmetically, storing the result in $Rd"
+        },
+        "jr": {
+            "docs": "jr: Jumps to the address stored in the register $Rs"
+        },
+        "jalr": {
+            "docs": "jalr: Jump-and-links to the address stored in the register $Rs, storing the return address in $Rd ($31 if not specified)"
+        },
+        "movz": {
+            "docs": "movz: Move Conditional on Zero"
+        },
+        "movn": {
+            "docs": "movn: Move Conditional on Not Zero"
+        },
+        "syscall": {
+            "docs": "syscall: Causes a system-call interrupt"
+        },
+        "break": {
+            "docs": "break: Causes a break interrupt"
+        },
+        "mfhi": {
+            "docs": "mfhi: Copies the value from the HI register to $Rd"
+        },
+        "clz": {
+            "docs": "clz: Count leading zeroes of $Rs, store in $Rd"
+        },
+        "mthi": {
+            "docs": "mthi: Copies the value from $Rs to the HI register"
+        },
+        "clo": {
+            "docs": "clo: Count leading ones of $Rs, store in $Rd"
+        },
+        "mflo": {
+            "docs": "mflo: Copies the value from the LO register to $Rd"
+        },
+        "mtlo": {
+            "docs": "mtlo: Copies the value from $Rs to the LO register"
+        },
+        "mult": {
+            "docs": "mult: Multiplies the values in $Rs and $Rt, storing the result in the HI and LO registers"
+        },
+        "multu": {
+            "docs": "multu: Multiplies the values in $Rs and $Rt, storing the result in the HI and LO registers, unsigned"
+        },
+        "div": {
+            "docs": "div: Divides the values in $Rs and $Rt, storing the $Rs / $Rt in HI, and $Rs % $Rt in LO"
+        },
+        "divu": {
+            "docs": "divu: Divides the values in $Rs and $Rt, storing the $Rs / $Rt in HI, and $Rs % $Rt in LO, unsigned"
+        },
+        "tge": {
+            "docs": "tge: Trap if Greater or Equal"
+        },
+        "tgeu": {
+            "docs": "tgeu: Trap if Greater or Equal Unsigned"
+        },
+        "tlt": {
+            "docs": "tlt: Trap if Less Than"
+        },
+        "tltu": {
+            "docs": "tltu: Trap if Less Than Unsigned"
+        },
+        "teq": {
+            "docs": "teq: Trap if Equal"
+        },
+        "tne": {
+            "docs": "tne: Trap if Not Equal"
+        },
+        "mul": {
+            "docs": "mul: Multiplies the values in $Rs and $Rt, storing the result in $Rd"
+        },
+        "wsbh": {
+            "docs": "wsbh: Word Swap Bytes Within Halfwords"
+        },
+        "seb": {
+            "docs": "seb: Sign-Extend Byte"
+        },
+        "seh": {
+            "docs": "seh: Sign-Extend Halfword"
+        },
+        "slt": {
+            "docs": "slt: Set $Rd to 1 if $Rs < $Rt, otherwise set $Rd to 0, unsigned"
+        },
+        "sltu": {
+            "docs": "sltu: Set $Rd to 1 if $Rs < $Rt, otherwise set $Rd to 0, unsigned"
+        },
+        "bltz": {
+            "docs": "bltz: Branch to the immediate address if the value in $Rs < 0"
+        },
+        "bgez": {
+            "docs": "bgez: Branch to the immediate address if the value in $Rs >= 0"
+        },
+        "tgei": {
+            "docs": "tgei: Trap if Greater or Equal Immediate"
+        },
+        "tgeiu": {
+            "docs": "tgeiu: Trap if Greater or Equal Immediate Unsigned"
+        },
+        "tlti": {
+            "docs": "tlti: Trap if Less Than Immediate"
+        },
+        "tltiu": {
+            "docs": "tltiu: Trap if Less Than Immediate Unsigned"
+        },
+        "teqi": {
+            "docs": "teqi: Trap if Equal Immediate"
+        },
+        "tnei": {
+            "docs": "tnei: Trap if Not Equal Immediate"
+        },
+        "bltzal": {
+            "docs": "bltzal: Branch-and-link to the immediate address if the value in $Rs < 0"
+        },
+        "bgezal": {
+            "docs": "bgezal: Branch-and-link to the immediate address if the value in $Rs >= 0"
+        },
+        "beq": {
+            "docs": "beq: Branch to the immediate address if the values in $Rs == $Rt"
+        },
+        "bne": {
+            "docs": "bne: Branch to the immediate address if the values in $Rs != $Rt"
+        },
+        "blez": {
+            "docs": "blez: Branch to the immediate address if the value in $Rs <= 0"
+        },
+        "bgtz": {
+            "docs": "bgtz: Branch to the immediate address if the value in $Rs > 0"
+        },
+        "addi": {
+            "docs": "addi: Adds an immediate value to the value in $Rs, stores result in $Rt"
+        },
+        "addiu": {
+            "docs": "addiu: Adds an immediate value to the value in $Rs, stores result in $Rt, unsigned"
+        },
+        "slti": {
+            "docs": "slti: Sets $Rt to 1 if the value in $Rs is less than the immediate value, otherwise sets $Rt to 0"
+        },
+        "sltiu": {
+            "docs": "sltiu: Sets $Rt to 1 if the value in $Rs is less than the immediate value, otherwise sets $Rt to 0, unsigned"
+        },
+        "andi": {
+            "docs": "andi: Bitwise and of the value in $Rs and the immediate value, stores the result in $Rt"
+        },
+        "ori": {
+            "docs": "ori: Bitwise or of the value in $Rs and the immediate value, stores the result in $Rt"
+        },
+        "xori": {
+            "docs": "xori: Bitwise xor of the value in $Rs and the immediate value, stores the result in $Rt"
+        },
+        "lui": {
+            "docs": "lui: Load the immediate value into the upper 16 bits of $Rt"
+        },
+        "lb": {
+            "docs": "lb: Load one byte at the immediate address + $Rs into $Rt"
+        },
+        "lh": {
+            "docs": "lh: Load two bytes at the immediate address + $Rs into $Rt"
+        },
+        "lwl": {
+            "docs": "lwl: Load Word Left"
+        },
+        "lw": {
+            "docs": "lw: Load four bytes at the immediate address + $Rs into $Rt"
+        },
+        "lbu": {
+            "docs": "lbu: Load one byte at the immediate address + $Rs into $Rt, don't sign extend"
+        },
+        "lhu": {
+            "docs": "lhu: Load two bytes at the immediate address + $Rs into $Rt, don't sign extend"
+        },
+        "lwr": {
+            "docs": "lwr: Load Word Right"
+        },
+        "sb": {
+            "docs": "sb: Store one byte from $Rt into the immediate address + $Rs"
+        },
+        "sh": {
+            "docs": "sh: Store two bytes from $Rt into the immediate address + $Rs"
+        },
+        "sw": {
+            "docs": "sw: Store four bytes from $Rt into the immediate address + $Rs"
+        },
+        "j": {
+            "docs": "j: Jump to the immediate address"
+        },
+        "jal": {
+            "docs": "jal: Jump-and-link to the immediate address"
+        },
+        "incr": {
+            "docs": "incr: Increment the value of $Rs"
+        },
+        "decr": {
+            "docs": "decr: Decrement the value of $Rs"
+        },
+        "nop": {
+            "docs": "nop: No-Operation - doesn't do anything"
+        },
+        "move": {
+            "docs": "move: Copy the value from $Rs into $Rd"
+        },
+        "copy": {
+            "docs": "copy: Copy the value from $Rs into $Rd"
+        },
+        "neg": {
+            "docs": "neg: Flip all the bits in $Rs, store result in $Rd"
+        },
+        "negu": {
+            "docs": "negu: Flip all the bits in $Rs, store result in $Rd"
+        },
+        "not": {
+            "docs": "not: $Rd = ! $Rs"
+        },
+        "rem": {
+            "docs": "rem: Store the remainder of $Rs / $Rt into $Rd"
+        },
+        "remu": {
+            "docs": "remu: Store the remainder of $Rs / $Rt (unsigned) into $Rd"
+        },
+        "mod": {
+            "docs": "mod: Store the remainder of $Rs / $Rt into $Rd"
+        },
+        "modu": {
+            "docs": "modu: Store the remainder of $Rs / $Rt (unsigned) into $Rd"
+        },
+        "abs": {
+            "docs": "abs: $Rs = |$Rt|"
+        },
+        "push": {
+            "docs": "push: Push $Rs to the top of the stack"
+        },
+        "pop": {
+            "docs": "pop: Pop the top of the stack into $Rd"
+        },
+        "begin": {
+            "docs": "begin: Begin a new stack frame"
+        },
+        "end": {
+            "docs": "end: End the current stack frame"
+        },
+        "rol": {
+            "docs": "rol: Rotate Left"
+        },
+        "ror": {
+            "docs": "ror: Rotate Right"
+        },
+        "zeb": {
+            "docs": "zeb: Zero-Extend Byte"
+        },
+        "zeh": {
+            "docs": "zeh: Zero-Extend Half"
+        },
+        "b": {
+            "docs": "b: Branch unconditionally"
+        },
+        "beqz": {
+            "docs": "beqz: Branch if $Rs == 0"
+        },
+        "bnez": {
+            "docs": "bnez: Branch if $Rs != 0"
+        },
+        "bge": {
+            "docs": "bge: Branch if $Rs >= $Rt"
+        },
+        "bgeu": {
+            "docs": "bgeu: Branch if $Rs >= $Rt unsigned"
+        },
+        "blt": {
+            "docs": "blt: Branch if $Rs < $Rt"
+        },
+        "bltu": {
+            "docs": "bltu: Branch if $Rs < $Rt unsigned"
+        },
+        "ble": {
+            "docs": "ble: Branch if $Rs <= $Rt"
+        },
+        "bleu": {
+            "docs": "bleu: Branch if $Rs <= $Rt"
+        },
+        "bgt": {
+            "docs": "bgt: Branch if $Rs > $Rt"
+        },
+        "bgtu": {
+            "docs": "bgtu: Branch if $Rs > $Rt unsigned"
+        }
+    }
+}
