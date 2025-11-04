@@ -7,5 +7,5 @@ vim.opt_local.colorcolumn = "80"
 
 vim.cmd([[
   highlight OverLength ctermbg=darkred guibg=#592929
-  match OverLength /\%81v.\+/
+  call matchadd('OverLength', '\%81c.', 100)
 ]])
